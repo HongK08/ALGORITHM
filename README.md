@@ -31,13 +31,13 @@
 
 #3 응용 (이름 찿아보기)
 
-    def src_name(st_num,st_name,find_num):
-        n = len(st_num)
+    def src_name(st_num,st_name,find_num):        # 학생 번호+학생 이름+그리고 내가 찿을 학생의 번호 를 지정해준다
+        n = len(st_num)                           # 내가 서칭할 대상 리스트를 읽는데 우선 학생 번호를 읽는다 (1:1) 로 대응
         for i in range(0, n):
-            if find_num == st_num[i]:
+            if find_num == st_num[i]:             # 이제 찿는 번호가 st_num이라는 리스트의 값이랑 일치한다면 마찬가지로 반환해준다
                 return st_name[i]
         
-        return "?? 없는데요 선생님?"
+        return "?? 없는데요 선생님?"                # 없으면 없다고 하는 착한 학생 만들기
     
     st_num=[1,4,6,3,2]
     st_name=['응애','응애1','응애2','응애3','응애4']
