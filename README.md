@@ -2,6 +2,7 @@
 
 
 #리스트에서 찿는 숫자의 위치를 출력하는 알고리즘
+
     def src_list(a,x):
     n = len(a)
     for i in range(0,n):
