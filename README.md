@@ -29,4 +29,18 @@
     v = [10,23,11,35,21,17,23,15,8]
     print(src_list_all(v , 23)
 
+#3 응용 (이름 찿아보기)
+
+    def src_name(st_num,st_name,find_num):
+        n = len(st_num)
+        for i in range(0, n):
+            if find_num == st_num[i]:
+                return st_name[i]
+        
+        return "?? 없는데요 선생님?"
+    
+    st_num=[1,4,6,3,2]
+    st_name=['응애','응애1','응애2','응애3','응애4']
+    
+    print(src_name(st_num, st_name, 2))
     
