@@ -9,6 +9,6 @@
         if x == a[i]:
             return i
     return -1
-v = [10,23,11,35,21,17,15,8]
-print(src_list(v,11))
+    v = [10,23,11,35,21,17,15,8]
+    print(src_list(v,11))
 
