@@ -43,4 +43,5 @@
     st_name=['응애','응애1','응애2','응애3','응애4']
     
     print(src_name(st_num, st_name, 2))
-    
+
+# 선택 정렬
